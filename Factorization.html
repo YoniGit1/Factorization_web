@@ -1,0 +1,38 @@
+<!doctype html5>
+<html>
+    <head>
+        <title>Factorization</title>
+        <link rel = "stylesheet" type="text/css" href="css/Factorization.css"/>
+        
+<!--
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>-->
+        <script src = "js/query-3.3.1.min.js"></script>
+        <script src = "js/Factorization.js"></script>
+        <script src = "js/Factorization.tree.js"></script>
+    </head>
+    <body>
+        <header> <!-- Title-->
+                <h1>Prime Factors Calculator</h1>
+        </header>
+        <main>
+            <section class = "Factorizer"> <!-- Factorizer block -->
+
+                <label for = "instruction">Enter the number to factor</label><br>
+                <input type="number" id = "number" placeholder = "Positive Integer" /><br/>
+                <p/>
+                <input type="checkbox" id="createTree"><span id="checkbox"> Create a factorization tree</span> </input>
+                <br/>
+                <section id = "buttons">   
+                    <span id = "divCalc" class = "calc">Calculate</span>
+                    <span id = "divClear" class = "clear">Clear</span>
+                </section>
+                
+            </section>
+            <div class="line-separator"></div>
+            <section id = "sResults" class = "results"> <!-- Results-->
+                <span id = "divErr" class = "err"></span>
+                <span id = "divRes" class = "err"></span>
+            </section>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,106 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+body {
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+}
+
+header {
+    margin-bottom: 5px;
+}
+header, main {
+    /* background-color: rgba(224, 224, 224, 0.678);
+    background-image: url("../bg.jpg"); */
+    background-color:  #313943;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    border: dotted;
+    border-width: 3px;
+    border-color: white;
+}
+
+section {
+    padding:5px;
+}
+label, input, #checkbox {
+    padding: 5px;
+    margin-top: 5px;
+    color: #e6914c;
+}
+
+#number {
+    width: 34%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: rgb(226, 80, 43);
+    font: 0.5px 1.5em/1 'Raleway', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    /* color: #F90B6D; */
+}
+
+
+#divCalc, #divClear {
+    display: inline;
+    color: rgb(226, 80, 43)8;
+    background:#717171;
+    border: 1px solid rgb(226, 80, 43);
+    font-size: 17px;
+    padding: 7px 12px;
+    font-weight: normal;
+    margin: 6px 0;
+    margin-right: 12px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    min-width: 120px;
+}
+
+#divClear:hover, #divClear:active , #divCalc:hover, #divCalc:active{
+
+  /* background: rgb(226, 80, 43); */
+  background:#b6b5b5c2;
+}
+
+#divErr, #normalLabel, #expLabel, #treeLabel {
+    color: rgba(240, 99, 44, 0.822);
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em
+}
+
+
+#normalRes, #expRes {
+    color: rgba(112, 112, 112, 0.822);
+    font: 600 1.5em/1 'Raleway', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding-bottom: 10%;
+    overflow-wrap: break-word;
+}
+
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #313030;
+    opacity: 0.2;;
+    margin-bottom: 10px;
+}
+
+#sResults{
+    margin-bottom: 5%;
+}
